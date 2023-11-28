@@ -26,10 +26,8 @@ Upon the appropriate petition by any person, the Secretariat Working Committee s
 * The Proposal Text does not violate the Code of Conduct of the LCS Project or the Secretariat Working Committee,
 * The Target Working Committee or Working Committees for the Proposed Specification can be reasonably identified.
 
-Any Member of the Working Committeee may make a Draft Assignment.
-
 Draft Assignments shall not be rejected on the merits of the proposed Specification.
-
+Any Member of the Working Committeee may make a Draft Assignment.
 
 All Draft Assignments shall be recorded, along with a Tentative Title, and the specified Target Working Committees.
 
@@ -104,4 +102,4 @@ Approval of any person to be added as a Member shall be by approval of all curre
 
 This document is released under the terms of the CC BY 4.0. You may copy, distribute, publish, modify, or otherwise use this document provided that this notice is left intact and that you do not use technological measures to prevent further use.
 
-A Copy of the license is accessible at <https://creativecommons.org/licenses/by/4.0/legalcode.en>.
+A copy of the license is accessible at <https://creativecommons.org/licenses/by/4.0/legalcode.en>.
