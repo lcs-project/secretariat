@@ -14,7 +14,7 @@ Authority: LCS 1 (§2, §6, §8.2)
 
 Contact: Connor Horman <chorman@lcdev.xyz>
 
-Copyright (C) 2023 Connor Horman. License Notice is present in §10.
+Copyright (C) 2023 Connor Horman. License Notice is present in §6.
 
 ## §1 Asynchronous Decisions Only
 
@@ -93,14 +93,14 @@ All Applications for Draft and Publication Numbers shall obey the following rule
 
 Any application made in violation of these rules may be denied for that reason, with or without communication on the matter. Additionally, any person who violates these rules may be permanently refused Draft and Publication Number Assignments.
 
-## §6 Special Publications and Membership Rules
+## §5 Special Publications and Membership Rules
 
 The Working Committee may make Special Publications in regards to Working Committee Rules, Membership Rules, and a Code of Conduct. 
 Any such special publications shall be approved by all members of the Working Committee.
 
 Approval of any person to be added as a Member shall be by approval of all current members. Removal of any member shall be by approval of all other members.
 
-## §5 Copyright License
+## §6 Copyright License
 
 This document is released under the terms of the CC BY 4.0. You may copy, distribute, publish, modify, or otherwise use this document provided that this notice is left intact and that you do not use technological measures to prevent further use.
 
