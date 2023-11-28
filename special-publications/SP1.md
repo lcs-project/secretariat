@@ -2,13 +2,13 @@
 
 Working Committee: Secretariat
 
-Publication Date:
+Publication Date: 2023-11-28
 
 Start Date: 2023-11-28
 
 Revision Date: 2023-11-28
 
-Revision Number: 0
+Revision Number: 1
 
 Authority: LCS 1 (§2, §6, §8.2)
 
@@ -47,7 +47,7 @@ Any Member of the Working Committee may make a Publication Number Assignment und
 
 ### §3.2 Publication Number Assignment (Notwithstanding §4)
 
-Any Draft Specification that has not completed Steps 1 through 5 of the §4 Review Process, may be assigned a Publication Number.  
+Any Draft Specification that has not completed Steps 1 through 5 of the §4 Review Process may be assigned a Publication Number.  
 To Recieve a Publication Number Assignment, a member of the LCS Leads must sponsor the Application. 
 This Member must represent that the LCS Leads intend to publish the Specification notwithstanding [§4 of LCS1](https://github.com/lcs-project/publications/blob/main/primary/LCS1.md#4-steps-of-publication), and are likely to do so.
 
@@ -98,7 +98,9 @@ Any such special publications shall be approved by all members of the Working Co
 
 Approval of any person to be added as a Member shall be by approval of all current members. Removal of any member shall be by approval of all other members.
 
-## §6 Copyright License
+## §6 Copyright Notice and License
+
+Copyright (C) 2023 Connor Horman.
 
 This document is released under the terms of the CC BY 4.0. You may copy, distribute, publish, modify, or otherwise use this document provided that this notice is left intact and that you do not use technological measures to prevent further use.
 
