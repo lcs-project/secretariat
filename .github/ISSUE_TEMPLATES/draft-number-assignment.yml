@@ -1,0 +1,27 @@
+name: Draft Number Assignment
+description: Request a Draft Number Assignment from the Secretariat Working Committee.
+body:
+- type: textarea
+  attributes:
+      label: Proposal Text
+      description: Provide a 1 Paragraph summary of your Proposed Specification
+      placeholder: What are you trying to specify
+  validation:
+      required: true
+- type: dropdown
+  attributes:
+    label: Intended Target Working Committee
+    description: |
+      Which Working Committee is likely the best fit to review your proposal.
+      The purpose of the "Governance and Membership" Working Committee is defined in §8 of [LCS1](https://github.com/lcs-project/publications/blob/main/primary/LCS1.md#8-governance-and-membership).
+      The purpose of the "Toolchains and Target Naming" Working Committee is defined in [LCS2](https://github.com/lcs-project/publications/blob/main/primary/LCS2.md)
+      If you're unsure, select "Unsure".
+      If no currently defined Working Committee is suitable, you may need to ask the LCS Leads for publication notwithstanding §4,
+      (See §3.2 of [SRC SP1](https://github.com/lcs-project/secretariat/blob/main/special-publications/SP1.md) for the process of obtaining a Publication Number from the Secretariat Working Committee for this case)
+      Draft Numbers are currently not assigned if no working committee is the target of the Draft.
+    options: 
+      - Governance and Membership
+      - Toolchains and Target Naming
+      - Unsure
+  validation:
+    required: true
