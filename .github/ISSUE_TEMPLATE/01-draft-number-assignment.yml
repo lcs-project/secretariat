@@ -6,7 +6,7 @@ body:
       label: Proposal Text
       description: Provide a 1 Paragraph summary of your Proposed Specification
       placeholder: What are you trying to specify
-  validation:
+  validations:
       required: true
 - type: dropdown
   attributes:
@@ -23,5 +23,5 @@ body:
       - Governance and Membership
       - Toolchains and Target Naming
       - Unsure
-  validation:
+  validations:
     required: true
