@@ -1,9 +1,14 @@
 name: Publication Number Assignment (Notwithstanding §4)
 description: |
   Request a publication number to make a publication notwithstanding the §4 review process (for example, a draft reviewed directly by the LCS Leads)
-  This corresponds to §3.2 of [SRC SP1](https://github.com/lcs-project/secretariat/blob/main/special-publications/SP1.md#32-publication-number-assignment-notwithstanding-4).
-  It is more likely that you want a normal "Publication Number Assignment"
 body:
+- type: markdown
+  attributes:
+    label: Procedural Notice
+    value: |
+      A Publication Number Assignment (Notwithstanding §4) is a special procedure used by the Secretariat Working Committee to cooperate with the LCS Leads in making special primary publications in non-standard ways
+      This corresponds to §3.2 of [SRC SP1](https://github.com/lcs-project/secretariat/blob/main/special-publications/SP1.md#32-publication-number-assignment-notwithstanding-4).
+      It is more likely that you want a normal "Publication Number Assignment".
 - type: input
   attributes:
       label: Draft Number
