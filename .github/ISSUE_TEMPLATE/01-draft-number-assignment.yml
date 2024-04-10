@@ -23,5 +23,6 @@ body:
       - Governance and Membership
       - Toolchains and Target Naming
       - Unsure
+    default: 2
   validations:
     required: true
