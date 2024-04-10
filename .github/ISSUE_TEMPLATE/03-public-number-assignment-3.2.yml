@@ -4,7 +4,6 @@ description: |
 body:
 - type: markdown
   attributes:
-    label: Procedural Notice
     value: |
       A Publication Number Assignment (Notwithstanding §4) is a special procedure used by the Secretariat Working Committee to cooperate with the LCS Leads in making special primary publications in non-standard ways
       This corresponds to §3.2 of [SRC SP1](https://github.com/lcs-project/secretariat/blob/main/special-publications/SP1.md#32-publication-number-assignment-notwithstanding-4).
@@ -31,3 +30,8 @@ body:
     description: The Canonical Location for the Draft. 
   validations:
     required: true
+- type: markdown
+  attributes:
+    value: |
+      Once granted, a Publication Number is assigned for 6 months unless an extension is granted per §3.3 of [SRC SP1](https://github.com/lcs-project/secretariat/blob/main/special-publications/SP1.md#33-term-of-assignment).
+      Grant of an extension is discretionary on the part of the Working Committee, and can only be requested prior to the set expiry date.
