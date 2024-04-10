@@ -1,0 +1,28 @@
+name: Publication Number Assignment (Notwithstanding §4)
+description: |
+  Request a publication number to make a publication notwithstanding the §4 review process (for example, a draft reviewed directly by the LCS Leads)
+  This corresponds to §3.2 of [SRC SP1](https://github.com/lcs-project/secretariat/blob/main/special-publications/SP1.md#32-publication-number-assignment-notwithstanding-4).
+  It is more likely that you want a normal "Publication Number Assignment"
+body:
+- type: input
+  attributes:
+      label: Draft Number
+      description: |
+       Provide the Assigned Draft Number for the existing Draft, if one was provided. 
+       Note that if the Draft was not reviewed by a Working Committee, no Draft Number will have been provided under current Secretariat Rules.
+  validations:
+      required: false
+- type: input
+  attributes:
+    label: LCS Leads Sponsor
+    description: |
+      To recieve a §3.2 Publication Number Assignment, a Member of the LCS Leads must sponsor the request for a publication number.
+      The Identified Member must certify that the LCS Leads intend to publish the Specification notwithstanding §4 of LCS1, and that they are likely to do so, or the request will be rejected.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Canonical Location
+    description: The Canonical Location for the Draft. 
+  validations:
+    required: true

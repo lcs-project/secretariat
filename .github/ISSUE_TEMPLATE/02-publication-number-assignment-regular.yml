@@ -1,0 +1,36 @@
+name: Publication Number Assignment
+description: |
+  Request a publication number for a completed LCS Draft.
+  The Draft must have completed all stages of the LCS Draft Review Process before step 6 (Publication Number Assignment)
+  This corresponds to §3.1 of [SRC SP1](https://github.com/lcs-project/secretariat/blob/main/special-publications/SP1.md#31-publication-number-assignment-4-review-process).
+  Once granted, a Publication Number is assigned for 6 months unless an extension is granted per §3.3 of [SRC SP1](https://github.com/lcs-project/secretariat/blob/main/special-publications/SP1.md#33-term-of-assignment).
+  Grant of an extension is discretionary on the part of the Working Committee, and can only be requested prior to the set expiry date.
+body:
+- type: input
+  attributes:
+      label: Draft Number
+      description: Provide the Assigned Draft Number for the existing Draft
+      placeholder: What are you trying to specify
+  validations:
+      required: true
+- type: dropdown
+  attributes:
+    label: Working Committees Involved
+    description: |
+      Which Technical Working Committees have been involved in reviewing the proposal.
+      Indicate all such Working Committees, not just the ones that the proposal was targetted to.
+      Only Working Committees that perform technical review are included,
+      Procedural Working Committees which perform stylistic review (such as Editorial)
+       or which have a purely procedural role (such as Secretariat) in the LCS Draft review process are not included
+    multiple: true
+    options: 
+      - Governance and Membership
+      - Toolchains and Target Naming
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Canonical Location
+    description: The Canonical Location for the Draft. Typically in the repository for the primary target working committee
+  validations:
+    required: true
