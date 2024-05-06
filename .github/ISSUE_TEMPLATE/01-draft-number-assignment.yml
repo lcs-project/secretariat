@@ -1,4 +1,5 @@
 name: Draft Number Assignment
+title: "[Draft No. Request] <title>"
 description: Request a Draft Number Assignment from the Secretariat Working Committee.
 body:
 - type: textarea
