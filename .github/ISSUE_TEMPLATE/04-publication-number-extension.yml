@@ -22,8 +22,8 @@ body:
         Indicate the date on which the previously made assignment will expire.
         If you do not know, you can look up the information from <https://github.com/lcs-project/secretariat/blob/main/publication-assignments.csv>.
         The request for an extension must be made before to this date.
-      validations:
-        required: true
+    validations:
+      required: true
   - type: input
     attributes:
       label: Requested New Expiry Date (Up to 6 Months)
@@ -35,8 +35,8 @@ body:
         Indicate the Most Recent Review step performed by the draft. 
         If the publication number was assigned under special rules (§3.2), it may not be following the standard review process.
         In this case, indicate N/A
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Why is an Extension Required
@@ -47,10 +47,12 @@ body:
         In the case of a publication number assigned under special rules (§3.2), also provide any information in regards to the approval process.
   - type: checkboxes
     attributes:
-      label: I understand that the extension of a Publication Number Assignment is discretionary
+      label: Discretion of Secretariat Working Committee
       description: |
         Per LCS 1 and §3.3, the Secretariat Working Committee has the sole authority to extend Publication Number Assignments.
         There is no requirements for granting a request under any circumstances.
         If an extension is not provided, the assignment expires at the original expiry date.
         The Secretariat Working Committee may refuse to provide an extension for any reason or no reason,
         and may or may not provide the details of the reason.
+      options:
+        - label: I understand that the extension of a Publication Number Assignment is discretionary
