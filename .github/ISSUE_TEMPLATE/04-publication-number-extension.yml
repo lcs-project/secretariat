@@ -56,3 +56,4 @@ body:
         and may or may not provide the details of the reason.
       options:
         - label: I understand that the extension of a Publication Number Assignment is discretionary
+          required: true
