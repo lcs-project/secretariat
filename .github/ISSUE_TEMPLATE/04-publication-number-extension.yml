@@ -24,7 +24,7 @@ body:
         The request for an extension must be made before to this date.
       validations:
         required: true
-  - type: input:
+  - type: input
     attributes:
       label: Requested New Expiry Date (Up to 6 Months)
       description: Specify the new date you wish to assign it for, or leave empty for the maximum
