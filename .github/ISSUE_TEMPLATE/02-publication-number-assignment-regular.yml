@@ -1,8 +1,14 @@
 name: Publication Number Assignment
+title: "[Publication No.] <title>"
 description: |
   Request a publication number for a completed LCS Draft.
   The Draft must have completed all stages of the LCS Draft Review Process before step 6 (Publication Number Assignment)
 body:
+- type: input
+  attributes:
+    label: Request Type
+    description: This indicates what request you are making. You shouldn't need to edit this from the default value
+    value: Publication Number Request (§3.1)
 - type: input
   attributes:
       label: Draft Number

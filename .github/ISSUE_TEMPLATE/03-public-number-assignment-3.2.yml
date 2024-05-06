@@ -1,7 +1,13 @@
 name: Publication Number Assignment (Notwithstanding §4)
+title: "[Publication No.] <title>"
 description: |
   Request a publication number to make a publication notwithstanding the §4 review process (for example, a draft reviewed directly by the LCS Leads)
 body:
+- type: input
+  attributes:
+    label: Request Type
+    description: This indicates what request you are making. You shouldn't need to edit this from the default value
+    value: Special Publication Number Request (§3.2)
 - type: markdown
   attributes:
     value: |
