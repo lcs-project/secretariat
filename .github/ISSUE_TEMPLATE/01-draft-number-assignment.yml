@@ -2,6 +2,11 @@ name: Draft Number Assignment
 title: "[Draft No. Request] <title>"
 description: Request a Draft Number Assignment from the Secretariat Working Committee.
 body:
+- type: input
+  attributes:
+    label: Request Type
+    description: This indicates what request you are making. You shouldn't need to edit this from the default value
+    default: Draft Number Request (§2)
 - type: textarea
   attributes:
       label: Proposal Text
@@ -24,6 +29,6 @@ body:
       - Governance and Membership
       - Toolchains and Target Naming
       - Unsure
-    default: 2
+    multiple: true
   validations:
     required: true
