@@ -6,7 +6,7 @@ body:
   attributes:
     label: Request Type
     description: This indicates what request you are making. You shouldn't need to edit this from the default value
-    default: Draft Number Request (§2)
+    value: Draft Number Request (§2)
 - type: textarea
   attributes:
       label: Proposal Text
