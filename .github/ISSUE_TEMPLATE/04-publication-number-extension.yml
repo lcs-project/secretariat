@@ -3,53 +3,54 @@ title: "[Publication No.] <title>"
 description: |
   Request a publication number assignment be extended for another period of 6 months
   Note that Publication Number Extension requests are discretionary, and must be made before the assignment expires.
-- type: input
-  attributes:
-    label: Request Type
-    description: This indicates what request you are making. You shouldn't need to edit this from the default value
-    value: Publication Number Extension (§3.3)
-- type: input
-  attributes:
-    label: Assigned Publication Number
-    description: Provide the Previously Assigned Publication Number
-  validations:
-    required: true
-- type: input
-  attributes:
-    label: Assignment Expiry Date
-    description: |
-      Indicate the date on which the previously made assignment will expire.
-      If you do not know, you can look up the information from <https://github.com/lcs-project/secretariat/blob/main/publication-assignments.csv>.
-      The request for an extension must be made before to this date.
+body:
+  - type: input
+    attributes:
+      label: Request Type
+      description: This indicates what request you are making. You shouldn't need to edit this from the default value
+      value: Publication Number Extension (§3.3)
+  - type: input
+    attributes:
+      label: Assigned Publication Number
+      description: Provide the Previously Assigned Publication Number
     validations:
       required: true
-- type: input:
-  attributes:
-    label: Requested New Expiry Date (Up to 6 Months)
-    description: Specify the new date you wish to assign it for, or leave empty for the maximum
-- type: input
-  attributes:
-    label: Most Recent Review Stage Completed
-    description: |
-      Indicate the Most Recent Review step performed by the draft. 
-      If the publication number was assigned under special rules (§3.2), it may not be following the standard review process.
-      In this case, indicate N/A
-    validations:
-       required: true
-- type: textarea
-  attributes:
-    label: Why is an Extension Required
-    description: |
-      Explain in a few (1-2) paragraphs why an extension on the publication number assignment is required. 
-      If you've taken any steps to ensure the review process continues, 
-      but required LCS Project processes unreasonably obstructed this, explain the steps you took and why the obstruction is unreasonable.
-      In the case of a publication number assigned under special rules (§3.2), also provide any information in regards to the approval process.
-- type: checkboxes
-  attributes:
-    label: I understand that the extension of a Publication Number Assignment is discretionary
-    description: |
-      Per LCS 1 and §3.3, the Secretariat Working Committee has the sole authority to extend Publication Number Assignments.
-      There is no requirements for granting a request under any circumstances.
-      If an extension is not provided, the assignment expires at the original expiry date.
-      The Secretariat Working Committee may refuse to provide an extension for any reason or no reason,
-      and may or may not provide the details of the reason.
+  - type: input
+    attributes:
+      label: Assignment Expiry Date
+      description: |
+        Indicate the date on which the previously made assignment will expire.
+        If you do not know, you can look up the information from <https://github.com/lcs-project/secretariat/blob/main/publication-assignments.csv>.
+        The request for an extension must be made before to this date.
+      validations:
+        required: true
+  - type: input:
+    attributes:
+      label: Requested New Expiry Date (Up to 6 Months)
+      description: Specify the new date you wish to assign it for, or leave empty for the maximum
+  - type: input
+    attributes:
+      label: Most Recent Review Stage Completed
+      description: |
+        Indicate the Most Recent Review step performed by the draft. 
+        If the publication number was assigned under special rules (§3.2), it may not be following the standard review process.
+        In this case, indicate N/A
+      validations:
+        required: true
+  - type: textarea
+    attributes:
+      label: Why is an Extension Required
+      description: |
+        Explain in a few (1-2) paragraphs why an extension on the publication number assignment is required. 
+        If you've taken any steps to ensure the review process continues, 
+        but required LCS Project processes unreasonably obstructed this, explain the steps you took and why the obstruction is unreasonable.
+        In the case of a publication number assigned under special rules (§3.2), also provide any information in regards to the approval process.
+  - type: checkboxes
+    attributes:
+      label: I understand that the extension of a Publication Number Assignment is discretionary
+      description: |
+        Per LCS 1 and §3.3, the Secretariat Working Committee has the sole authority to extend Publication Number Assignments.
+        There is no requirements for granting a request under any circumstances.
+        If an extension is not provided, the assignment expires at the original expiry date.
+        The Secretariat Working Committee may refuse to provide an extension for any reason or no reason,
+        and may or may not provide the details of the reason.
